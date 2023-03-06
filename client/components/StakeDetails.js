@@ -9,8 +9,8 @@ function StakeDetails() {
   const [stakedBalance, setStakedBalance] = useState('0');
   const [earnedBalance, setEarnedBalance] = useState('0');
 
-  const stakingAddress = "0x5f2839D359321e7B4504420A7c1648697aB4fFaB"; //replace this with the address where you have deployed your staking Smart Contract
-  const rewardTokenAddress = "0x31352b63427113A9f654ef177e969C63406F22EE"; //replace this with the address where you have deployed your Reward Token Smart Contract
+  const stakingAddress = "0xAE565E71bb996D6da94bFd8dCf0E7Bc2b67d10b5"; //replace this with the address where you have deployed your staking Smart Contract
+  const rewardTokenAddress = "0xD3669C7604a644D037660acF473e17575292c6de"; //replace this with the address where you have deployed your Reward Token Smart Contract
 
   const { runContractFunction: getRTBalance } = useWeb3Contract({
     abi: TokenAbi.abi,
